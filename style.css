@@ -1,0 +1,2775 @@
+.boton-movil{
+    
+    display:none;
+}
+
+.logo-movil{
+    
+    display: none;
+}
+aside#menu-cortina{
+    
+    width: 290px;
+    height: 100%;
+    display: none;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0;
+    right: -290px;
+    z-index: 999999;
+
+    background: rgba(208, 45, 91, 0.79);
+
+}
+aside#menu-cortina a{
+     width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    
+    transition: all 0.3 ease-in;
+}
+aside#menu-cortina a i{
+    padding: 14px 0 0 0;
+    font-size: 1.6em;
+    
+    transition: all 0.3 ease-in;
+}
+aside#menu-cortina a:hover i{
+    transition: all 0.3 ease-in;
+    color: #B50006;
+}
+aside#menu-cortina a:hover i{
+    transition: all 0.3 ease-in;
+    color: #B50006;
+}
+
+
+
+aside#menu-cortina a#abrir{
+    left: -30%;
+    color: #fff;
+    z-index: 10;
+    
+    background: #D02D5B;
+
+}
+
+
+aside#menu-cortina a#cerrar{
+    
+    left: -30%;
+    color: #D02D5B;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    z-index: 9;
+    background: white;
+}
+
+
+aside#menu-cortina nav#menu-moviles{
+    width: 80%;
+    height: auto;
+    margin: 40% 10% 0 10%;
+    position: relative;
+    float: none;
+}
+aside#menu-cortina nav#menu-moviles a{
+    
+    width: 100%;
+    height: 34px;
+    margin: 21% auto;
+    position: relative;
+    float: none;
+    display: block;
+    font-family: Raleway;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 35px;
+    text-decoration: none;
+}
+aside#menu-cortina nav#menu-moviles a:hover{
+    
+    transition: all 0.3 ease-in;
+    background: white;
+    color: #D02D5B;
+}
+
+
+/*fin-del-menu-cortina*/
+
+
+
+
+
+
+
+
+
+body{
+position: relative;
+    margin: 0;
+
+
+}
+
+
+
+aside#wpp{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0;
+    position: fixed;
+    float: none;
+    
+    bottom: 37px;
+    right: 36px;
+    
+    z-index: 99999;
+}
+aside#wpp a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+    
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.85); 
+    background: #D02D5B;
+    text-decoration: none;
+    transition: all 0.3s ease in;
+}
+aside#wpp a i{
+    
+    text-align: center;
+    padding: 18px 24px;
+    display: block;
+    color: white;
+    font-size: 4em;
+    
+    transition: all 0.3s ease in;
+
+}
+aside#wpp a:hover i{
+    
+    border-radius: 50%;
+    background: white;
+    transition: all 0.3s ease in;
+}
+aside#wpp a:hover i{
+    color: #D02D5B;
+    transition: all 0.3s ease in;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+section#acc{
+
+margin: 10% 0;
+
+}
+
+.accordion {
+
+    background: none;
+  cursor: pointer;
+  padding: 18px;
+  margin: 0 0 0 42%;
+  width: 15%;
+  text-align: center;
+border: 3px solid #D02D5B;
+  outline: none;
+  transition: 0.4s;
+    float: none;
+    
+    box-shadow: 5px 8px 11px rgba(0, 0, 0, 0.25);
+border-radius: 51px;
+    color: #D02D5B;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24 px;
+
+
+
+}
+
+.content{
+    width: 75%;
+
+	margin: auto;
+    height: auto;
+    position: relative;
+    padding: 0 0 0 0;
+
+}
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: none;
+    color: #D02D5B;
+    transform: scale(0.9);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 0 0 0;
+  background-color: #FCF7F2;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+    height: auto;
+    width: 100%;
+    
+
+}
+
+.panel figure{
+    
+float: left;
+    width: 30%;
+    /* height: 292px; */
+    margin: 0 5% 0 0;
+    padding: 3% 0 0 0;
+}
+
+.panel .unless{
+    
+    float: left;
+    width: 30%;
+
+    margin: 0 0 0 0;
+}
+
+
+.panel figure figcaption{
+    
+    margin: 2% 0 2% 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #BC2124;
+}
+
+
+
+.panel figure img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+header{
+    
+    width: 100%
+}
+
+
+
+
+.contenedor {
+	width: 75%;
+
+	margin:auto;
+    height: 80px;
+}
+
+.titulosecundarioh3{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #4E141B;
+}
+
+
+.logo{
+    
+    width: 30%;
+    margin: 118px 0 31px 70.6%;
+}
+
+
+.logo img{
+    
+    width: 100%;
+    height: 100%;
+}
+    
+header nav {
+	background:#D02D5B;
+    height: 100%;
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+    margin: 0;
+}
+
+header nav ul li {
+    float: left;
+    margin: 0;
+}
+
+header nav ul li a {
+	display: block;
+	padding:30.7px 35.09px;
+	color:#fff;
+	text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+header nav ul li a:hover {
+	background:#fff;
+    color: #D02D5B;
+}
+
+header nav ul figure{
+    
+    width: 57px;
+    height: 57px;
+    margin:  12px 0;
+    float: left;
+    position: inherit;
+    display: none;
+}
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+
+	width: 75%;
+    height: 80px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+.menu-fixed a{
+	display: block;
+	padding:30.7px 35.09px;
+	color:#fff;
+	text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-fixed figure{
+    
+        width: 57px;
+    height: 57px;
+    margin:  12px 13px 12px -21px;
+    float: left;
+    position: inherit;
+    display: block;
+}
+
+
+.contenedorcuerpo {
+	width: 75%;
+
+	margin:auto;
+    height: auto;
+    position: relative;
+    direction: block;
+
+}
+
+section.elmapa{
+width: 100%;
+    /* max-width: 1045px; */
+    height: 79px;
+    margin: 8% auto 0 auto;
+    position: relative;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    background: white;
+}
+
+main section#uno{
+    width: 100%;
+    height: 916px;
+    display: block;
+    margin: 19% 0;
+
+}
+
+main section#uno article#presenteichon{
+    
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ptuno{
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    float: none;
+    position: relative;
+
+    
+}
+.ptuno h1{
+    
+    width: auto;
+    height: auto;
+    display: block;
+    position: left;
+    margin: 0 0 0 0;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    
+    color: #4E141B;
+}
+.ptuno a{
+    
+    position: absolute;
+    width: 405px;
+    height: 66px;    
+}
+.ptuno a button#primero{
+    
+    position: absolute;
+    width: 405px;
+    height: 66px;
+    margin: 44px 0 0 0;
+    
+    background: #D02D5B;
+    box-shadow: 5px 8px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+    color: white;
+    text-decoration: none;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    border: none;
+    cursor: pointer;
+    display: block;
+    outline: none;
+}
+
+main section#uno article#presenteichon a button#primero:hover{
+    
+    background: white;
+    color: #D02D5B;
+    
+
+}
+
+.ptdos{
+    
+    width: 100%;
+    height: 60%;
+
+    margin: 3% 0 0;
+}
+
+
+
+
+.ptdos figure{
+    
+    width: 100%;
+    margin: 0;
+
+    float: right;
+    
+}
+
+.ptdos figure img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+main section#uno article#presenteichon figure img{
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+
+main section#dos{
+    width: 100%;
+    height: 570px;
+    display: block;
+    margin-top: 110px;
+    position: relative;
+    background: #FCF7F2;
+}
+
+main section#dos article#sosten{
+    
+       	width: 75%;
+	margin:auto;
+    height: 580px;
+    position: relative;
+    direction: block;
+    
+
+}
+
+.agh{
+    
+
+    width: 31%;
+    /* height: 449px; */
+    display: block;
+    margin:11% 0 0 0;
+    /* float: left; */
+    position: absolute;
+    left: 0;
+    
+    
+}
+.agh figure{
+
+    position: relative;
+    float: none;
+    margin: 0;
+}
+
+.agh figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.aghdos{
+    
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    margin: 16% 0 0 0;
+
+    
+    
+}
+
+.aghdos h3{
+    width: 100%;
+    display: block;
+    margin: 0 0 2% 0;
+    float: left;
+    /* padding: 16% 0 0 50%; */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: left;
+    color: #4E141B;
+}
+
+.aghdos p{
+
+    display: block;
+    margin: 32px 0 0 0;
+    float: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 35px;
+    text-align: left;
+
+    color: #4E141B;
+}
+
+main section#tres{
+    
+    width: 100%;
+    height: 71px;
+    display: block;
+    margin: 12% auto 0 auto;
+
+    
+}
+.titulos{
+    
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+
+
+
+.titulos figure{
+    
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 8px 2% 0 0;
+    background: #D02D5B;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.titulos figure i{
+    
+    width: 64px;
+    height: auto;
+    display: block;
+    font-size: 2.3em;
+    border-radius: 50%;
+    float: none;
+    color: white;
+    text-decoration: none;
+    padding: 22%;
+}
+
+.titulos h3{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    float: left;
+    padding: 0 0 0 16px;
+    margin: 0;
+    color: #4E141B;
+}
+
+.titulos a{
+    
+    width: 40%;
+    height: 70px;
+    position: relative;
+    float: right;
+
+    
+}
+.titulos button{
+    
+    width: 100%;
+    height: 100%;
+    float: right;
+    display: block;
+    margin: 0 0 0 0;
+    background: #D02D5B;
+    box-shadow: 5px 8px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: block;
+    outline: none;
+
+}
+
+
+.titulos button:hover{
+    
+        background: white;
+    color: #D02D5B;
+}
+main section#tres article#titulos button:hover{
+    
+    background: white;
+    color: #D02D5B;
+
+}
+
+
+main section#carousel{
+    
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 5% 14% 0 14%;
+
+}
+
+
+
+
+
+
+
+
+/*
+
+
+-----------------CARRUSEL CARRUSEL---------------------------------------
+*/
+
+
+/*! Flickity v1.0.0
+http://flickity.metafizzy.co
+---------------------------------------------- */
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+    background: white;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+  position: absolute;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  background: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+  /* vertically center */
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.flickity-prev-next-button:hover { background: white; }
+
+.flickity-prev-next-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #09F;
+}
+
+.flickity-prev-next-button:active {
+  filter: alpha(opacity=60); /* IE8 */
+  opacity: 0.6;
+}
+
+.flickity-prev-next-button.previous { left: -80px; }
+.flickity-prev-next-button.next { right: -80px; }
+/* right to left */
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
+
+.flickity-prev-next-button:disabled {
+  filter: alpha(opacity=30); /* IE8 */
+  opacity: 0.3;
+  cursor: auto;
+}
+
+.flickity-prev-next-button svg {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: #D885B5;
+    
+}
+
+/* color & size if no SVG - IE8 and Android 2.3 */
+.flickity-prev-next-button.no-svg {
+  color: #333;
+  font-size: 26px;
+}
+
+/* ---- page dots ---- */
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -46px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots { direction: rtl; }
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin: 0 71px 0 0;
+  background: #D02D5B;
+  border-radius: 50%;
+  filter: alpha(opacity=25); /* IE8 */
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+  filter: alpha(opacity=100); /* IE8 */
+  opacity: 1;
+}
+
+
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell1 {
+    width: 326.35px;
+    height: 291.77px;
+  margin-right: 10px;
+  background-image: url(images/c3.png);
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell2 {
+    width: 326.35px;
+    height: 291.77px;
+  margin-right: 10px;
+  background-image: url(images/c1.png);
+  counter-increment: gallery-cell;
+}
+.gallery-cell3 {
+    width: 326.35px;
+    height: 291.77px;
+  margin-right: 10px;
+  background-image: url(images/c2.png);
+  counter-increment: gallery-cell;
+}.gallery-cell4 {
+    width: 326.35px;
+    height: 291.77px;
+  margin-right: 10px;
+  background-image: url(images/c4.png);
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell1.is-selected {
+  background: url(images/c3.png) color rgba(191, 19, 19, 0.33);
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.iconito-fuera{
+    
+    width: 49px;
+    height: 49px;
+    bottom: -14px;
+    left: -33px;
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+
+
+}
+.fas.fa-menorah{
+    padding: 28% 19%;
+    font-size: 1.5em;
+    
+}
+
+.fas.fa-gift{
+    padding: 21.5% 23%;
+    font-size: 1.7em;
+    
+}
+
+.fas.fa-birthday-cake{
+    padding: 20% 26%;
+    font-size: 1.7em;
+    
+}
+
+.fas.fa-hand-holding-heart{
+    padding: 20% 20%;
+    font-size: 1.7em;
+    
+}
+
+.titulishiro{
+    
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    bottom: -18px;
+    left: 24px;
+
+
+padding: 0 7% 0 2%;
+    
+}
+.titulishiro1{
+    
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    bottom: -19px;
+    left: 24px;
+
+    padding: 0 3% 0 3%;
+    
+}
+
+.titulishiro p{
+    
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+    letter-spacing: 1px;
+
+
+color: #FFFFFF;
+
+}
+.titulishiro1 p{
+    
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+    letter-spacing: 0.5px;
+
+
+color: #FFFFFF;
+
+}
+
+.all{
+    
+    width: 100%;
+    height: 17%;
+    background: #D02D5B;
+    position: absolute;
+    display: block;
+    bottom: 0;
+}
+/*-----------------------carrusel fin---------------------*/
+
+main section#cuatro{
+    
+width: 100%;
+    /* max-width: 1045px; */
+    margin: 14% 0 0 0;
+    height: 580px;
+    position: relative;
+    
+
+}
+
+.ayudaporfavor{
+    
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+    
+}
+
+.text {
+    
+    width: 100%;
+    height: 27%;
+    float: none;
+    /* margin: 10% 0 0 0; */
+    color: #4E141B;
+
+}
+.text h3{
+    
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: right;
+    margin: 0;
+    right: 0%;
+    /* float: right; */
+    position: absolute;
+    color: #4E141B;
+}
+
+.fotos{
+    
+    width: 100%;
+    /* height: 300px; */
+    height: 62%;
+    margin: 6% 0 0 0;
+    float: none;
+
+
+
+
+
+}
+.fotos figure{
+    
+    width: 30%;
+    /* height: 292px; */
+    margin: 0 5% 0 0;
+    float: left;
+    position: relative;
+
+
+}
+
+.fotos figure#unless{
+    
+    width: 30% ;
+
+    margin: 0 0 0 0;
+    float: left;
+    position: relative;
+
+
+}
+.fotos figure img{
+    
+    width: 100% ;
+    height: 100%;
+    margin: 0;
+    float: none;
+
+
+}
+
+.fotos figure figcaption{
+    
+    margin: 2% 0 0 0;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+
+    color: #BC2124;
+}
+
+main section#clases{
+    
+width: 100%;
+    /* max-width: 1045px; */
+     margin: 7% 0 0; 
+    height: 500px;
+    position: relative;
+    direction: block;
+
+}
+.clases{
+    
+    width: 40%;
+    height: 100%;
+    position: inherit;
+    float: left;
+    margin: 0;
+    
+
+       
+}
+
+.socorro{
+    
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.socorro .clases h4{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 84.19%;
+    /* or 30px */
+
+    text-align: left;
+    margin: 0;
+    color: #4E141B;
+    
+}
+
+.clases h3{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 75px;
+    text-align: left;
+    
+    margin: 0;
+    color: #4E141B;
+}
+
+.clases p{
+    
+    margin: 8% 0 0 0;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+font-size: 1.5em;
+    line-height: 35px;
+    text-align: left;
+
+    color: #4E141B;
+    }
+
+.fotin{
+    width: 55%;
+    float: right;
+ 
+}
+
+.fotin figure{
+    
+    width: 100%;
+    margin: 0;
+    float: right;
+}
+
+.fotin figure img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.autre{
+    
+	width: 100%;
+    height: 516px;
+	margin:  12% 0 0 0;
+    position: relative;
+    background: #FCF7F2;
+}
+
+
+.imagencin{
+    
+    width:  20%;
+    float: left;
+    position: relative;
+    margin: 5%;
+}
+
+
+.imagencin img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.cuerpah{
+    
+width: 40%;
+    height: 100%;
+    float: left;
+    padding: 5% 0 0;
+    margin: 0;
+
+}
+
+.cuerpah h2{
+    
+       font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 84.19%;
+        /* or 74px */
+        margin: 0;
+        text-align: center;
+
+        color: #BC2124;
+}
+
+.cuerpah h4{
+    
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 104.19%;
+        /* or 38px */
+        margin: 0;
+        text-align: center;
+
+        color: #BC2124;
+}
+
+.cuerpah p{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin: 8% 0 0 0;
+    color: #4E141B;
+}
+
+.cuerpah div#toutes{
+    
+    width: 334px;   
+    height: 10%;
+
+    position: relative;
+    float: none;
+    margin: 7% auto;
+
+}
+
+.cuerpah div#toutes div{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #D02D5B;
+    position: inherit;
+    float: left;
+    
+    margin: 0 5% 0 0;
+}.cuerpah div#toutes div:hover{
+    
+   transform: scale(0.9);
+}
+
+.cuerpah div#last{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #D02D5B;
+    position: inherit;
+    float: left;
+    
+    margin: 0 0 0 0;
+}
+
+.cuerpah div a{
+    
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: inherit;
+    float: left;
+    
+}
+
+.cuerpah div a i{
+    
+    font-size: 2em;
+    color: white;
+    
+    padding: 14% 17%;
+    
+}
+
+.cuerpah .fab.fa-facebook-f{
+    
+    font-size: 2em;
+    color: white;
+    
+    padding: 15% 27%;
+}
+
+.cuerpah .fab.fa-twitter{
+    
+    font-size: 2em;
+    color: white;
+    
+    padding: 15% 16%;
+    
+}
+
+
+.locate{
+    
+    width: 75%;
+    height: auto;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.locate div{
+    
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 8px 2% 0 0;
+    background: #D02D5B;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    
+}
+
+.locate div i{
+    
+    width: 64px;
+    height: auto;
+    display: block;
+    font-size: 2.3em;
+    border-radius: 50%;
+    float: none;
+    color: white;
+    text-decoration: none;
+    padding: 24% 30%;
+        position: inherit;
+}
+
+.locate h3{
+    
+font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    float: left;
+    /* padding: 0 0 0 80px; */
+    margin: 0;
+    color: #4E141B;
+    position: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.map{
+    
+    width: 100%;
+    height: 745px;
+	margin: 0;
+    position: relative;
+    
+    background: url(images/map.png) no-repeat white;
+    background-size: cover;
+}
+
+.ocho{
+    
+    width: 100%;
+    margin: 6% 0 6% 0;
+    height: 876px;
+    position: relative;
+    direction: block;
+
+
+}
+
+.atencion{
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+
+.faq{
+    
+    width: 40%;
+    height: auto;
+    /* position: inherit; */
+    float: left;
+    position: relative;
+    margin: 0;
+    
+}
+
+.faq h5{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+        position: inherit;
+    margin: 0;
+
+    color: #4E141B;
+    
+}
+
+.faq h6{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+font-size: 1.1em;
+    line-height: 25px;
+    margin: 5% 0;
+    color: #4E141B;
+        position: inherit;
+    
+}
+.faq p{
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+font-size: 1.1em;
+    line-height: 25px;
+    position: inherit;
+    
+    margin: 0;
+
+    color: #4E141B;
+}
+
+.dessertillo{
+
+    
+    width: 55%;
+    float: right;
+    margin: 12% 0 0 0;
+        position: relative;
+}
+
+.dessertillo img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    
+  width: 100%;
+  height: 513px;
+  position: relative;
+  display: block;
+
+  padding: 1rem;
+  background: url(images/footer.svg) pink;
+
+}
+
+.footer .elfot{
+    width: 75%;
+    height: 87%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 33px;
+    left: 13%;
+}
+
+.footer .elfot .zona-info{
+    
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    position: relative;
+}
+
+
+.footer .elfot .zona-info .redes-sociales{
+    
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+
+    
+}
+
+
+.footer .elfot .zona-info .redes-sociales div{
+    
+    width: 100%;
+    height: 28%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    position: relative;
+    
+    
+}
+
+.footer .elfot .zona-info .redes-sociales div figure{
+    
+    width: 15%;
+
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    float: left;
+    
+}
+
+.footer .elfot .zona-info .redes-sociales div figure img{
+    
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+.footer .elfot .zona-info .redes-sociales div p{
+    
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    position: relative;
+    display: block;
+    margin: 0 0 0 2%;
+    color: #642E34;
+    float: left;
+        line-height: 45px;
+}
+
+
+
+
+
+
+.footer .elfot .zona-info .info-ad{
+    
+width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    /* float: right; */
+    right: 0;
+    
+}
+
+
+.footer .elfot .zona-info .info-ad figure{
+    
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    float: none;
+    
+
+    
+}
+
+.footer .elfot .zona-info .info-ad figure img{
+    
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+
+.footer .elfot .zona-info .info-ad p{
+    
+    position: relative;
+    margin: 0;
+    float: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.3em;
+    line-height: 38px;
+    text-align: right;
+
+    color: #4E141B;
+
+}
+
+
+
+.footer .elfot .zona-pago{
+    
+    
+width: 75%;
+    height: 29%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+        left: 11%;
+    float: none;
+    
+}
+
+.footer .elfot .zona-pago figure{
+    
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+    display: block;
+        
+    float: none;
+
+    }
+
+    .footer .elfot .zona-pago figure img{
+    
+    width: 100%;
+
+    }
+
+
+.footer .elfot .zona-pago p{
+    
+
+        position: relative;
+    margin: 0;
+    float: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
+
+    text-align: center;
+
+    color: #4E141B;
+    
+    }
+
+    
+    
+    
+    
+
+
+
+/*
+
+AQUI EMPIEZA EL RESPONSIVE AAAAAAAAAAAAAAA AYUDAME DIOS
+*/
+
+@media (max-width: 1645px){
+    section#acc {
+    margin: 2% 0;
+        
+    }
+}
+
+@media (max-width: 1342px){
+    
+    
+
+    
+    .autre {
+
+    padding: 1% 0 0;
+    }
+    
+    .menu-fixed a {
+
+    font-size: 0.8em;
+    }
+    
+    
+    header nav ul {
+
+    width: 100%;
+    
+}
+    
+    header nav ul li a {
+
+    font-size: 0.8em;
+    padding: 30.7px 39.09px;
+    
+    }
+    
+    
+}
+
+@media (max-width: 1319px){
+
+        .aghdos h3 {
+            width: 100%;
+    font-size: 3.2em;
+    }
+    
+    
+    .aghdos p {
+
+    font-size: 1em;
+    }
+    
+    .titulos h3 {
+
+    font-size: 3.2em;
+    }
+    
+    
+    .text h3 {
+
+    font-size: 3.2em;
+    }
+    
+    
+    .fotos {
+
+    /* height: 300px; */
+    /* height: 6%; */
+    margin: 5% 0 0 0;
+    }
+    
+    main section#cuatro {
+
+    height: 438px;
+
+    }
+    
+    .clases h3 {
+
+    font-size: 4.2em;
+    }
+    
+    .socorro .clases h4 {
+    font-size: 2em;
+    line-height: 15%;
+    }
+    .clases p {
+
+    font-size: 1em;
+        }
+
+    .cuerpah h2 {
+
+    font-size: 4.5em;
+    }
+    
+    .cuerpah h4 {
+
+    font-size: 2em;
+    }
+    
+    
+.cuerpah p {
+
+    font-size: 1.5em;
+    }
+    
+    .locate h3 {
+
+    font-size: 3.5em;
+    }
+ 
+    
+    .faq h5 {
+
+    font-size: 2.6em;
+    
+        }
+    
+    
+    .faq h6 {
+
+    font-size: 1.2em;
+    line-height: 24px;
+    
+    }
+    
+    
+    .faq p {
+
+    font-size: 0.9em;
+    line-height: 17px;
+    
+    }
+    
+    .titulos button {
+
+    font-size: 2em;
+    }
+    
+    
+}
+
+@media (max-width: 1228px){
+    
+    
+        section#acc {
+    margin: 0 0;
+        
+    }
+    
+    .autre {
+    padding: 5% 0 0;
+}
+    
+    .menu-fixed a {
+
+    padding: 30.7px 24.09px;
+    }
+    
+    header nav ul li a {
+;
+    padding: 30.7px 29.09px;
+    }
+.titulos button {
+    font-size: 1.4em;
+    }
+
+}
+
+@media (max-width: 1109px){
+    
+    header nav ul li a {
+    padding: 30.7px 27.09px;
+}
+}
+    
+@media (max-width: 767px){
+    
+    
+    section#acc {
+    margin: 7% 0 0;
+}
+    
+    
+    .ptuno h1 {
+
+    font-size: 4em;
+        
+        
+    }
+    
+    main section#uno {
+    height: 700px;
+    }
+    
+    .ptdos {
+
+    height: 46%;
+    margin: 15% 0 0;
+    }
+   
+/*    ELFOOTER*/
+    
+    .footer .elfot .zona-info .redes-sociales {
+    width: 100%;
+    height: 73%;
+    position: relative;
+    float: none;
+        
+    }
+    .footer .elfot .zona-info .redes-sociales div figure {
+    width: 40px;
+    }
+    
+    .footer .elfot .zona-info .info-ad {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    float: none;
+    }
+    
+    .footer .elfot .zona-info .info-ad p {
+
+    text-align: left;
+    }
+    
+    .footer .elfot .zona-info {
+
+    margin: 7% 0 0;
+        
+    }
+    
+    .footer .elfot .zona-pago {
+    width: 75%;
+    height: 16%;
+    }
+    
+    .footer .elfot .zona-info .info-ad figure {
+    width: 149px;
+    height: 30%;
+
+    display: block;
+    position: relative;
+
+    }
+    
+/*    empiezaelcss*/
+    
+main section#uno {
+    width: 100%;
+    height: 916px;
+    display: block;
+    margin: 26% 0 0;
+    }
+    
+.agh {
+    width: 45%;
+    height: 56%;
+    /* display: block; */
+    margin: 1% auto 0;
+    float: none;
+    position: relative;
+    left: inherit;
+    /* right: 0; */
+    /* top: 34%; */
+}
+    
+    .aghdos{
+        width: 100%;
+        height: 41%;
+    position: relative;
+    /* right: 0; */
+    float: none;
+        margin: 0;
+    padding: 4% 0 0 0;
+    
+    }
+    
+    main section#cuatro {
+    height: 1012px;
+        
+        margin: 14% 0 0 0;
+    }
+    
+ .titulos button {
+    font-size: 1.6em;
+         display: none;
+}
+    
+    
+    .text h3 {
+    text-align: left;
+    float: left;
+    right: inherit;
+        
+    }
+    
+    
+    .text {
+    width: 100%;
+    height: 13%;
+    margin: 0 0 4%;
+    }
+    
+    
+.fotos figure img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    float: none;
+    border-radius: 50%;
+
+}
+    
+    .fotos figure {
+    width: 223px;
+    height: 223px;
+    margin: 0 auto 15%;
+    float: none;
+    }
+    
+    .fotos figure#unless{
+    width: 223px;
+    height: 223px;
+    margin: 0 auto;
+    float: none;
+    
+}
+    
+    .fotos {
+    /* height: 300px; */
+    /* height: 6%; */
+    margin: 0 0 0 0;
+    }
+    
+    
+    .accordion {
+    background: none;
+    cursor: pointer;
+    padding: 18px;
+    margin: 0 0 0 36%;
+    width: 26%;
+}
+    
+    
+    
+    
+.clases {
+    width: 100%;
+    height: 47%;
+    margin: 0 auto 3%;
+    float: none;
+    }
+    
+    .clases p {
+    margin: 7% 0 0 0;
+    }
+    
+        .clases h3 {
+
+    font-size: 3.2em;
+                line-height: 84px;
+}
+    
+    .socorro .clases h4 {
+    font-size: 3.2em;
+    }
+    
+.fotin {
+    width: 55%;
+    float: none;
+    margin: 7% auto 0;
+}
+    
+    .faq {
+    width: 100%;
+    height: auto;
+            margin: 0 0 5%;
+    }
+    
+    .faq h6 {
+    margin: 1% 0;
+    }
+    
+    .dessertillo {
+
+    float: none;
+    margin: 0 auto 0 auto;
+    
+    
+    
+}
+    
+    .autre {
+    width: 100%;
+    height: 448px;
+    margin: 20% 0 0 0;
+        
+    }
+    
+    .locate h3 {
+    font-size: 3.2em;
+    }
+    
+    .faq h5 {
+
+    margin: 0 0 5%;
+        
+    }
+    
+    .faq p {
+    line-height: 25px;
+    }
+    
+    .imagencin {
+    display: none;
+    }
+
+    
+    .cuerpah {
+    width: 75%;
+    height: 100%;
+    float: none;
+    padding: 5% 0 0;
+    margin: 0 auto;
+    
+    }
+    
+    .cuerpah h2 {
+    font-size: 4em;
+    text-align: left;
+    }
+    
+    
+    .cuerpah h4 {
+    text-align: left; 
+    font-size: 4em;
+    }
+    .cuerpah p {
+        
+    text-align: left;
+    margin: 5% 0 0 0;
+    }
+    
+    .cuerpah div#toutes {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    float: none;
+    margin: 7% 0;
+    }
+    
+    
+    .panel figure img {
+    border-radius: 50%;
+    }
+    
+    
+    .flickity-viewport {
+
+    width: 100%;
+        
+    }
+    
+    .gallery {
+    background: none;
+    }
+    
+    .boton-movil{
+        
+        display: block;
+        width: 100%;
+        height: 50px;
+        margin: 14% 0 0; 
+        float: none;
+        position: relative;
+ 
+    }
+    .boton-movil a{
+        
+    width: 300px;
+    height: 100%;
+    text-decoration: none;
+    }
+   .boton-movil a button{
+    width: 300px;
+    height: 100%;
+    float: left;
+    display: block;
+    margin: 0 0 0 29%;
+    background: #D02D5B;
+    box-shadow: 5px 8px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 42px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: block;
+    outline: none;
+}   
+    .boton-movil a button:hover{
+
+    background: white;
+    color: #D02D5B;
+
+}
+    .map {
+    background: url(images/mapa.svg) no-repeat center white;
+}
+
+}
+
+@media (max-width: 1023px){
+        
+    .aghdos h3 {
+        font-size: 2.9em;
+    }
+    .map {
+    background: url(images/MAPA%20GRANDE.svg) no-repeat center white;
+    height: 613px;
+    }
+    
+    aside#menu-cortina{
+     display: block;   
+    }
+     
+    header{
+        width: 100%;
+        height: 100px;
+        background: #D02D5B;
+        position: fixed;
+        top: 0;
+        z-index: 99999;
+        
+    }
+    
+        aside#menu-cortina{
+     display: block;   
+    }
+    
+    .logo-movil{
+        width: 24%;
+    /* margin: 2.6% 0 2.6% 4%; */
+    display: block;
+    height: auto;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+    
+    .logo-movil img{
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+    .contenedor{
+    display: none;;
+    }
+    .menu-fixed {
+    display: none;;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+@media (max-width: 998px){
+    
+    .accordion {
+    padding: 14px;
+    margin: 0 0 0 40%;
+    width: 19%;
+    }
+}
+ 
+@media (max-width: 691px){
+    
+    
+.boton-movil a button {
+    float: none;
+    margin: 0 auto;
+    }
+    
+    section#acc {
+    margin: 0 0 0;
+    }
+    
+    main section#uno {
+
+    
+    height: 613px;
+   margin: 24% 0 4% 0;
+    }
+    
+    .ptuno h1 {
+    font-size: 3em;
+    line-height: 59px;
+    margin: 0 0 7% 0;
+    
+    }
+    
+    .ptuno a button#primero {
+
+    width: 299px;
+    font-size: 1.6em;
+    }
+    
+    
+    .ptdos {
+    margin: 6% 0 0 0;
+    }
+    
+    
+    main section#dos {
+    margin-top: 3%;
+    }
+    
+    
+    
+    .titulos h3 {
+    font-size: 3em;
+    }
+
+    
+    
+.text h3 {
+    font-size: 3.2em;
+    line-height: 61px;
+}
+    
+    
+    
+    
+    .clases h3 {
+    font-size: 3em;
+    }
+    
+    .cuerpah h2 {
+    font-size: 3em;
+    }
+    
+    .cuerpah h4 {
+    font-size: 3em;
+}
+    
+    .locate h3 {
+    font-size: 3em;
+    }
+        .ptuno a button#primero {
+
+    margin: 0 0 0 0;
+    }
+    
+    
+    .ptuno a {
+    position: absolute;
+    width: 299px;
+    }
+    
+    
+    .boton-movil a button {
+
+    margin: 0 auto;
+        
+    }
+    
+    .flickity-prev-next-button.next {
+    right: -56px;
+}
+    
+    .flickity-prev-next-button.previous {
+    left: -61px;
+}
+
+.text {
+    width: 100%;
+    height: 13%;
+    margin: 0 0 8%;
+    
+    }
+    
+    main section#cuatro {
+    height: 1012px;
+    margin: 14% 0 10% 0;
+    }
+    
+    main section#clases {
+
+    margin: 15% 0 0;
+        
+    }
+
+    .clases p {
+    margin: 7% 0 0 0;
+            line-height: 27px;
+    }
+    
+    
+    
+    
+/*        main section#carousel {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 5% 24% 0 12%;*/
+}    
+
+@media (max-width: 575px){
+    
+    
+        .boton-movil {
+    margin: 20% 0 0;
+}
+    
+    .accordion {
+
+    padding: 17px;
+    margin: 0 0 0 36%;
+    width: 26%;
+    font-size: 0.8em;
+    
+}
+}
+    
+@media (max-width: 527px){
+    
+    
+    .map {
+    height: 312px;
+    }
+    main section#uno {
+    height: 613px;
+    margin: 31% 0 4% 0;
+    }
+    
+    .logo-movil {
+    width: 32%;
+    left: 5%;
+    top: 33%;
+    }
+    
+    
+    .agh {
+    height: 36%;
+    margin: 25% auto 0;
+    }
+        
+        main section#clases {
+    margin: 23% 0 0;
+        }
+    
+    
+    .autre {
+    margin: 13% 0 18% 0;
+    width: 100%;
+    height: 377px;
+        
+    }
+    
+        .ptuno a button#primero {
+    width: 192px;
+    height: 47px;
+    font-size: 1.1em;
+}
+    
+    .aghdos h3 {
+    font-size: 2.4em;
+    }
+    
+    .titulos h3 {
+    font-size: 2.4em;
+}
+    
+    .text h3 {
+    font-size: 2.4em;
+    line-height: 45px;
+}
+    
+    .flickity-page-dots .dot {
+
+    margin: 0 37px 0 0;
+        
+    }
+    
+    .socorro .clases h4 {
+    font-size: 2.4em;
+}
+    
+    .clases h3 {
+    font-size: 2.4em;
+}
+    
+    .clases p {
+    margin: 10% 0 0 0;
+    }
+    
+    .cuerpah h2 {
+    font-size: 2.4em;
+    }
+    .cuerpah h4 {
+    font-size: 2.4em;
+}
+    .locate h3 {
+    font-size: 2.4em;
+}
+    section.elmapa {
+    margin: 8% auto 8% auto;
+    }
+    
+    .faq h5 {
+    font-size: 2.4em;
+    }
+    
+    .faq h6 {
+    line-height: 25px;
+    margin: 4% 0;
+    }
+    
+}
+
+@media (max-width: 485px){
+    
+    
+    main section#cuatro {
+    margin: 14% 0 0 0;
+    }
+    
+    .accordion {
+
+    padding: 14px;
+    margin: 0 0 0 33%;
+    width: 35%;
+    font-size: 0.8em;
+ 
+}
+    
+    .map {
+    background: url(images/mapa%20peque.svg) no-repeat center white;
+        
+    }
+}
+
+@media (max-width: 444px){
+    .cuerpah div#toutes div {
+    width: 40px;
+    height: 40px;
+    }
+    
+    .cuerpah div a i {
+    font-size: 1.5em;
+    padding: 13% 14%;
+        
+    }
+    
+    .cuerpah .fab.fa-facebook-f {
+    font-size: 1.5em;
+    padding: 14% 22%;
+    }
+    
+    .cuerpah .fab.fa-twitter {
+    font-size: 1.5em;
+    padding: 15% 14%;
+}
+    .titulos figure {
+    width: 54px;
+    height: 54px;
+    display: block;
+    margin: 12px 0 0 0;
+    }
+    
+    .titulos figure i {
+
+    font-size: 1.9em;
+    padding: 23% 24%;
+}
+    .locate div {
+    width: 54px;
+    height: 54px;
+    margin: 12px 2% 0 0;
+    
+}
+    .locate div i {
+    font-size: 1.9em;
+        
+    }
+    
+    .locate h3 {
+    font-size: 2em;
+}
+
+.cuerpah h4 {
+    font-size: 2em;
+}
+    
+    .cuerpah h2 {
+    font-size: 2em;
+}
+    
+    .clases h3 {
+    font-size: 2em;
+}
+    
+    .socorro .clases h4 {
+    font-size: 2em;
+    line-height: 0;
+}
+    
+    .fotin {
+    margin: 18% auto 0;
+}
+
+    .text h3 {
+    font-size: 2em;
+    }
+    
+    .titulos h3 {
+    font-size: 2em;
+}
+    
+    .aghdos h3 {
+    font-size: 2em;
+}
+    
+    .ptuno h1 {
+    font-size: 2.6em;
+    }
+    
+    
+    
+    
+}
+
+@media (max-width: 440px){
+    
+    .ocho {
+    width: 100%;
+    margin: 6% 0 25% 0;
+    }
+    
+}
+
+@media (max-width: 356px){
+    
+    
+    .flickity-prev-next-button.next {
+    right: -50px;
+}
+    .flickity-prev-next-button.previous {
+    left: -50px;
+}
+    
+    .boton-movil {
+    margin: 29% 0 0;
+    }
+    
+    .locate h3 {
+    font-size: 1.8em;
+}
+    
+    .ocho {
+    width: 100%;
+    margin: 6% 0 28% 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
